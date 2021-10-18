@@ -1,0 +1,295 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    
+}
+.emptyspace{
+    width: 100%;
+    height: 110px;
+    text-align: center;
+   padding-top: 30px;
+}
+.toppad{
+    width: 100%;
+    height: 25px;
+    
+}
+
+.toppad p{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+.toppad1{
+    height: 110px;
+}
+
+.toppad1 img {
+    background-color: rgb(177, 172, 172);
+    margin-left: 30px;
+    padding: 10px;
+    border-radius: 20px 0px 20px 0px ;
+    
+}
+
+.toppad1 img:hover{
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
+}
+
+.toppad1 p {
+    float: right;
+    color: white;
+    margin-top: 60px;
+    margin-right: 30px;
+}
+
+.toppad1 a{
+    text-decoration: none;
+    color: white;
+}
+.toppad1 a:hover{
+    color: rgb(121, 121, 122);
+    font-weight: bold;
+}
+.toppad1 button {
+    float: right;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 30px;
+    padding: 0px 10px 0px 10px;
+    background-color: chocolate;
+}
+
+.navibar{
+    background: rgba( 250, 250, 250, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 2px );
+    border-radius: 0px 0px 10px 10px ;
+}
+.navibar a {
+    color: black;
+   font-weight: bold;
+   border: 1px solid white;
+}
+.caroimg{
+    height: 500px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 800px){
+    .toppad1 img { height: 50px; margin-left: 15px; }
+    .toppad1 p {font-size: 10px; }
+    .toppad1 {height: 80px; }
+    #toppad {font-size: 10px; }
+    .navibar{font-size: 15px; display: inline-table; width: 100%;}
+    .downmenu {font-size: 10px;}
+    .caroimg {height: 200px; object-fit: cover;}
+    .footdiv h5{font-size: 15px;}
+    .footdiv p { font-size: 10px;}
+    .footdiv ul li {font-size: 10px;}
+    .emptyspace {height: 100px;}
+    .toppad1 button {
+        float: right;
+        font-size: 10px;
+        border-radius: 5px;
+        font-weight: bold;
+        margin-right: 10px;
+        padding: 0px 10px 0px 10px;
+        background-color: chocolate;
+    }
+    
+}
+.primerymenu ul li a span::before {
+    border-color: red;
+}
+a{
+    text-decoration: none;
+}
+.sbscon{
+    border: 2px solid black;
+    border-radius: 60px 0px 60px 0px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    background-image: url(https://image.freepik.com/free-vector/stylish-yellow-sale-banner-design_1017-14559.jpg);
+    
+}
+
+
+/* Aside Bar strats here  */
+/* The side navigation menu */
+    .asidebar {
+     
+        border-radius: 60px 0px 0px 0px;
+        margin:0 ;
+        padding: 0;
+        width: 200px;
+        background-color: #f1f1f1;
+        position: relative;
+        height: 400px;
+        overflow: auto;
+}
+.asidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+.asidebar a.active {
+    background-color: #636665;
+    color: white;
+
+} 
+.asidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  @media screen and (max-width: 500px) {
+    .asidebar {
+      width: 100px;
+      height: 200px;
+      position: relative;
+      font-size: small;
+    }
+    .sbscontaint{
+        width: 380px;
+        height: 200px;
+    }
+}
+@media screen and (min-width: 600px)
+{
+    .sbscontaint{
+        width: 1110px;
+        height: 400px;
+    }
+    
+}
+
+/* Aside Bar Ends here  */
+
+/* Cards here  */
+
+.card-1 h3{
+text-align: center;
+font-size: 30px;
+margin: 0;
+padding-top: 10px;
+}
+a{
+text-decoration: none;
+}
+.card-1 .gallery{
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+justify-content: center;
+align-items: center;
+margin: 50px 0;
+}
+.content{
+width: 24%;
+margin: 15px;
+box-sizing: border-box;
+float: left;
+text-align: center;
+border-radius:10px;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+padding-top: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+transition: .4s;
+}
+.content:hover{
+box-shadow: 0 0 11px rgba(33,33,33,.2);
+transform: translate(0px, -8px);
+transition: .6s;
+}
+.card-1 img{
+width: 200px;
+height: 160px;
+text-align: center;
+margin: 0 auto;
+display: block;
+}
+.card-1 p{
+text-align: center;
+color: #b2bec3;
+padding: 0 8px;
+}
+.card-1 h6{
+font-size: 26px;
+text-align: center;
+color: #222f3e;
+margin: 0;
+}
+.card-1 ul{
+list-style-type: none;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0px;
+}
+.card-1 ul li{
+padding: 5px;
+}
+.fa{
+color: #ff9f43;
+font-size: 26px;
+transition: .4s;
+}
+.fa:hover{
+transform: scale(1.3);
+transition: .6s;
+}
+.card-1 button{
+text-align: center;
+font-size: 24px;
+color: #fff;
+width: 100%;
+padding: 15px;
+border:0px;
+outline: none;
+cursor: pointer;
+margin-top: 5px;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
+}
+.card-1 button a {
+    color: white;
+}
+.buy-1{
+background-color: #000000;
+}
+.buy-2{
+background-color: #000000;
+}
+.buy-3{
+background-color: #0b0b0b;
+}
+@media(max-width: 1000px){
+.content{
+width: 46%;
+}
+}
+@media(max-width: 750px){
+.content{
+width: 100%;
+}
+}
+
+.container {
+    opacity: 70%;
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+font-weight: bold;
+}
+

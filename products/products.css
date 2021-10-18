@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.emptyspace{
+    width: 100%;
+    height: 110px;
+    text-align: center;
+   padding-top: 30px;
+}
+
+.toppad{
+    width: 100%;
+    height: 25px;
+    
+}
+
+.toppad p{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+.toppad1{
+    height: 110px;
+}
+
+.toppad1 img {
+    background-color: rgb(177, 172, 172);
+    margin-left: 30px;
+    padding: 10px;
+    border-radius: 20px 0px 20px 0px ;
+    
+}
+
+.toppad1 img:hover{
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
+}
+
+.toppad1 p {
+    float: right;
+    color: white;
+    margin-top: 60px;
+    margin-right: 30px;
+}
+
+.toppad1 a{
+    text-decoration: none;
+    color: white;
+}
+.toppad1 a:hover{
+    color: rgb(121, 121, 122);
+    font-weight: bold;
+}
+.toppad1 button {
+    float: right;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 30px;
+    padding: 0px 10px 0px 10px;
+    background-color: chocolate;
+}
+
+.navibar{
+    background: rgba( 250, 250, 250, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 2px );
+    -webkit-backdrop-filter: blur( 2px );
+    border-radius: 0px 0px 10px 10px ;
+}
+.navibar a {
+    color: black;
+   font-weight: bold;
+   border: 1px solid white;
+}
+
+/* Cards here  */
+
+.card-1 h3{
+text-align: center;
+font-size: 30px;
+margin: 0;
+padding-top: 10px;
+}
+a{
+text-decoration: none;
+}
+.card-1 .gallery{
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+justify-content: center;
+align-items: center;
+margin: 50px 0;
+}
+.content{
+width: 24%;
+margin: 15px;
+box-sizing: border-box;
+float: left;
+text-align: center;
+border-radius:10px;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+padding-top: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+transition: .4s;
+}
+.content:hover{
+box-shadow: 0 0 11px rgba(33,33,33,.2);
+transform: translate(0px, -8px);
+transition: .6s;
+}
+.card-1 img{
+width: 200px;
+height: 160px;
+text-align: center;
+margin: 0 auto;
+display: block;
+}
+.card-1 p{
+text-align: center;
+color: #b2bec3;
+padding: 0 8px;
+}
+.card-1 h6{
+font-size: 26px;
+text-align: center;
+color: #222f3e;
+margin: 0;
+}
+.card-1 ul{
+list-style-type: none;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0px;
+}
+.card-1 ul li{
+padding: 5px;
+}
+.fa{
+color: #ff9f43;
+font-size: 26px;
+transition: .4s;
+}
+.fa:hover{
+transform: scale(1.3);
+transition: .6s;
+}
+.card-1 button{
+text-align: center;
+font-size: 24px;
+color: white;
+width: 100%;
+padding: 15px;
+border:0px;
+outline: none;
+cursor: pointer;
+margin-top: 5px;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
+}
+.card-1 button a{
+    text-decoration: none;
+    
+}
+.buy-1{
+background-color: #000000;
+}
+.buy-2{
+background-color: #000000;
+}
+.buy-3{
+background-color: #0b0b0b;
+}
+@media(max-width: 1000px){
+.content{
+width: 46%;
+}
+}
+@media(max-width: 750px){
+.content{
+width: 100%;
+}
+}
+
+   /* Cards ends Here  */
